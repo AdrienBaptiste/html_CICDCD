@@ -55,6 +55,41 @@
             height: 100px;
             margin-bottom: 20px;
         }
+        .gallery {
+            padding: 40px 20px;
+            background-color: #ffe6e1;
+        }
+        .gallery h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2em;
+        }
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .gallery-item {
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        .gallery-item h3 {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+        .gallery-item p {
+            font-size: 0.9em;
+            color: #666;
+        }
         footer {
             background-color: #333;
             color: white;
@@ -88,6 +123,31 @@
             <img src="/pictures/glow.png" alt="Radiant Glow">
             <h3>Radiant Glow</h3>
             <p>Enhances your natural beauty with a healthy glow.</p>
+        </div>
+    </section>
+    <section class="gallery">
+        <h2>Our Products</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="/pictures/product1.jpg" alt="Product 1">
+                <h3>GlowUp Serum</h3>
+                <p>Rejuvenate your skin with our best-selling serum.</p>
+            </div>
+            <div class="gallery-item">
+                <img src="/pictures/product2.jpg" alt="Product 2">
+                <h3>Hydrating Cream</h3>
+                <p>Keep your skin hydrated all day long.</p>
+            </div>
+            <div class="gallery-item">
+                <img src="/pictures/product3.jpg" alt="Product 3">
+                <h3>Brightening Mask</h3>
+                <p>Reveal your natural glow with our brightening mask.</p>
+            </div>
+            <div class="gallery-item">
+                <img src="/pictures/product4.jpg" alt="Product 4">
+                <h3>Exfoliating Scrub</h3>
+                <p>Gently exfoliate for smoother, softer skin.</p>
+            </div>
         </div>
     </section>
     <footer>
